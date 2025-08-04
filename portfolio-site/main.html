@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yclept.dev</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: serif;
+      background: #EDEDE9;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000814;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      background: #EDEDE9;
+      position: relative;
+    }
+
+    .intro {
+      padding: 50px;
+      padding-bottom: 150px;
+      text-align: center;
+    }
+
+    .intro h1 {
+      font-size: 48px;
+      font-weight: normal;
+      margin-bottom: 8px;
+    }
+
+    .intro p {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+    }
+
+    .nav a {
+      color: #EDEDE9;
+      background: #D5BDAF;
+      text-decoration: none;
+    }
+
+    .whoami {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 10px;
+      line-height: 1.6;
+    }
+    .whoami h1{
+      text-align: center;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    .whoami img {
+      padding: 10px;
+      float: right;
+      padding-right: 10vh;
+      width: 200px;
+      height: 280px;
+    }
+    @media (max-width: 768px) {
+      .intro {
+        padding: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+      }
+      .whoami img {
+        float: none;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        padding-right: 0vh;
+      }
+    }
+
+    .whoami p{
+      text-align: left;
+      font-size: 16px;
+      padding: 10px;
+      padding-left: 10vh;
+      padding-right: 10vh;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .whoami p::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .whoami p::-webkit-scrollbar-track {
+      background: #EDEDE9;
+    }
+
+    .whoami p::-webkit-scrollbar-thumb {
+      background: #E3D5CA;
+      border-radius: 3px;
+    }
+
+    .whoami p::-webkit-scrollbar-thumb:hover {
+      background: #D5BDAF;
+    }
+
+
+    .whoami span {
+      font-style: italic;
+      font-size: 13px;
+      color: #888;
+      margin-top: 40px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      padding-right: 10vh;
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="intro">
+    <h1>yclept<span style="color:#D5BDAF;">.dev</span></h1>
+    <p>Thomas A. Daniels</p>
+    <div class="nav">
+      <a href="projects.html">. projects .</a>
+      <a href="blog.html">. blog .</a>
+      <a href="contact.html">. contact .</a>
+    </div>
+  </div>
+
+
+    <div class="whoami">
+      <h1>Who am I?</h1>
+      <img src ="images/test.jpg" alt = "Me">
+      <p>
+        My name is Thomas A. Daniels. I study computer science and am a sophomore at Arapahoe Community College where I focus on C++ development.<br><br>
+
+        TSA is a state/national engineering competition I competed in when I was in High-school.
+        During my senior year I earned first place at the TSA state competition with an AI medical helper chatbot.
+        I took seventh place at the TSA nationals during my junior year with a national bunker concept.
+        I also reached Gold Competitor status in CyberPatriot which is a national cybersecurity contest that asks students to secure virtual networks and systems.<br><br>
+
+        Outside of school and contests I love hands on work with technology.
+        I spend a lot of time in game development where I learn about gameplay mechanics and graphics programming.
+        I am also fascinated by Linux systems. I customized a Arch Linux distribution however the files to this have been lost.<br><br>
+
+        If you need to find me please contact me under my contact page.<br><br>
+
+        <span> “The impediment to action advances action. What stands in the way becomes the way.” - Marcus Aurelius </span>
+      </p>
+    </div>
+
+
+</div>
+</body>
+</html>
